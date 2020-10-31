@@ -1,0 +1,45 @@
+*{
+    padding: 10px;
+    font-family: 'Montserratt';
+}
+
+header{
+    box-shadow: 2px 2px 2px 2px lightgrey;
+    text-align: center;
+    height: 1020%auto;
+}
+
+nav {
+    font-weight: bold;
+    margin-bottom: 10px;
+    width:100%;
+
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    padding-left: 20%;
+ 
+  }
+  nav li {
+    margin: 100px;
+    float: left;
+    text-align: right;
+    text-shadow:2px 2px #ececec;
+  }
+  nav li a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #000000;
+    float: left;
+  }
+
+
+article{
+    padding-left: 20%;
+    padding-right: 20%
+}
+
