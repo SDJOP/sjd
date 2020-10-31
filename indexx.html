@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: "Roboto", sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+        .page-header{
+            margin-left: -100px;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            
+        }
+
+        .page-header h1{
+            font-size: 40px;
+        }
+
+        .page-header p{
+            text-align: center;
+        }
+        nav{
+            display: flex;
+            flex-direction: row;          
+            justify-content: space-evenly;
+            align-items: center;
+            height: 150px;
+            background-color: #3caea3;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+
+        }
+
+        .container{
+            padding: 50px;
+            background-color: #F0F0F0;
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: right;
+            margin-right: -100px;
+            }
+
+        nav ul li{
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            float: right;
+            margin-left: 40px;
+            text-decoration: none; 
+            text-shadow: 1px 1px 3px gray;
+        }
+
+        nav ul li:hover{
+            font-size: 24px;
+            transition: 0.2s;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-weight: 700;
+            vertical-align: middle;
+        }
+
+        nav img{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            float: right;
+            padding-left: 10px;
+            height: 18px;
+        }
+
+        nav img:hover{
+            height: 25px
+        }
+
+        .page-title {
+            text-align: center;
+        }
+
+        .page-title h1,
+        .page-title h2,
+        .page-title h3{
+            margin-bottom: 10px;
+        }
+
+        .boxes{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         
+
+        }
+
+        .portfolio,
+        .stuff-ive-written,
+        .book-my-services{
+            height: 400px;
+            width: 500px;
+            margin-right: 25px;
+            margin-left: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px#48736F80;
+            background-color: #48736F;
+            border: 5px solid white;
+            color: white;
+        }
+        .portfolio:hover,
+        .stuff-ive-written:hover,
+        .book-my-services:hover{
+            width: 550px;
+            height:450px;
+            transition: 0.5s;
+        }
+
+        footer{
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+ <nav>
+    <div class="page-header">
+        <h1> <a href = "#">Stefan Domzalski</a></h1>
+        <p>UX Designer • Front End Developer</p>
+    </div>
+    <div class="navigation">
+        <ul>
+
+            <li><a href="#"><img src="white-pencil2x@2x.png" alt="" height = "18px">MY WORK</a></li>
+            <li><a href="#"> <img src="Contact@3x.png" alt=""> CONTACT</a></li>
+        </ul>
+    </div>
+</nav>
+    <div class="container">
+        <div class="page-title">
+            <h1>Hi, my name is Stefan Domzalski 🙋🏻‍♂️</h1> <br>
+            <h2>I'm a 21 Year Old UX Designer and pseudo Front End Engineer from Brighton  📍</h2>
+            <h3>I'll use this space as my personal project to develop my skills in Front End Web Development, <br>
+            and as a portfolio for my UX Work.</h3>
+        </div> <br>
+
+    
+    <div class="boxes">
+    <div class="portfolio">
+        <h2>Have a look at my UX Work Here</h2>
+    </div>
+    <div class="stuff-ive-written">
+        <h2>Here's some stuff I've written</h2>
+    </div>
+    <div class="book-my-services">
+        <h2>Book my services!</h2>
+    </div>
+</div>
+</div>
+<footer>
+    Thanks for visiting 
+</footer>
+
+</body>
+</html>
